@@ -150,10 +150,10 @@ async def global_exception_handler(request: Request, exc: Exception):
 from fastapi.staticfiles import StaticFiles
 
 # Path to your frontend build
-frontend_path = "/home/ubuntu/kashikart/backend/frontend-dist"
+# # frontend_path = "/home/ubuntu/kashikart/backend/frontend-dist"
 
 # Serve frontend static files (HTML, CSS, JS)
-app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
+# # app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
 
 if __name__ == "__main__":
     import uvicorn

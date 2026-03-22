@@ -93,7 +93,7 @@ def _resolve_env_file() -> str:
 
 ENV_FILE_PATH = _resolve_env_file()
 if Path(ENV_FILE_PATH).exists():
-    load_dotenv(ENV_FILE_PATH, override=False)
+    load_dotenv(ENV_FILE_PATH, override=True)
 
 
 class Settings(BaseSettings):
@@ -193,3 +193,5 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+print("Loaded DATABASE_URL:", settings.DATABASE_URL)
