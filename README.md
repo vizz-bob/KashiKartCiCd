@@ -1,10 +1,13 @@
-📦 KashiKart — Full Production Deployment GuideAWS EC2 + React Frontend + FastAPI Backend📋 TABLE OF CONTENTS
+📦 KashiKart — Full Production Deployment GuideAWS EC2 + React Frontend + FastAPI Backend
+
+📋 TABLE OF CONTENTS
 AWS EC2 Setup
 Backend (FastAPI) Deployment
 Frontend (React + Vite) Deployment
 Environment Configuration
 CORS Configuration
 Common Issues & Fixes
+
 Final Checklist
 🔷 PART 1 — AWS EC2 Setup1.1 — Launch EC2 Instance
 AMI: Ubuntu 22.04 LTS
