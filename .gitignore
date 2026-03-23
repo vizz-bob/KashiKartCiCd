@@ -1,49 +1,20 @@
 # Backend
-venv/
-*.pyc
-__pycache__/
-logs/
-uploads/
-.env
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/logs/
+backend/.env
+backend/alembic/__pycache__/
 
 # Frontend
-node_modules/
-dist/
-
-# OS
-.DS_Store
-
-# Python virtual env
-backend/.venv/
-
-# Node modules
 frontend/node_modules/
-
-# Env files
-backend/.env
+frontend/dist/
 frontend/.env
+
+# Project-wide
 *.env
-
-# Ignore virtual environments
-backend/.venv/
-frontend/node_modules/
-*.env
-
-
-# Python virtual environments
-backend/.venv/
-
-# Node modules
-frontend/node_modules/
-
-# Environment files
-*.env
-
-# Python virtual environments
-backend/.venv/
-
-# Node modules
-frontend/node_modules/
-
-# Environment files
-*.env
+*.pyc
+__pycache__/
+.DS_Store
+venv/
