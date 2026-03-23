@@ -23,3 +23,8 @@ frontend/node_modules/
 backend/.env
 frontend/.env
 *.env
+
+# Ignore virtual environments
+backend/.venv/
+frontend/node_modules/
+*.env
