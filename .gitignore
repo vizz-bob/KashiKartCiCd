@@ -12,3 +12,13 @@ dist/
 
 # OS
 .DS_Store
+
+# Python virtual env
+backend/.venv/
+
+# Node modules
+frontend/node_modules/
+
+# Env files
+backend/.env
+frontend/.env
