@@ -38,3 +38,12 @@ frontend/node_modules/
 
 # Environment files
 *.env
+
+# Python virtual environments
+backend/.venv/
+
+# Node modules
+frontend/node_modules/
+
+# Environment files
+*.env
